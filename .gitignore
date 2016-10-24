@@ -1,0 +1,15 @@
+node_modules
+typings
+bundles/
+compiled/
+dist/
+*.metadata.json
+example/*.js
+src/*.js
+test/**/*.js
+ng2-lazyload-image.js
+index.js
+*.js.map
+*.d.ts
+!example/custom-typings.d.ts
+README.md
