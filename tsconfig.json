@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "rootDir": ".",
+    "lib": [ "dom", "es6" ],
+    "types": [ "node", "mocha" ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "./index.ts",
+    "src/**/*.ts",
+    "example/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "compiled",
+    "test"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "compiled"
+  }
+}
